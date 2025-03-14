@@ -1,7 +1,7 @@
 # modelexam
 Define a function to calculate EMI using the given formula for a loan amount.
 Define Function: 
-      def calculate _emi(amount, duration, rate, down_payment =0); 
+def calculate _emi(amount, duration, rate, down_payment =0); 
       try:  
          n = duration *12 
          r = rate /(12*100) 
